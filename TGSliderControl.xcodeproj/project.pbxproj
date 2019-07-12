@@ -1,0 +1,682 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2AC6490322D8359900F38553 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AC6490222D8359900F38553 /* AppDelegate.m */; };
+		2AC6490622D8359900F38553 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AC6490522D8359900F38553 /* ViewController.m */; };
+		2AC6490922D8359900F38553 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2AC6490722D8359900F38553 /* Main.storyboard */; };
+		2AC6490B22D8359A00F38553 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2AC6490A22D8359A00F38553 /* Assets.xcassets */; };
+		2AC6490E22D8359A00F38553 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2AC6490C22D8359A00F38553 /* LaunchScreen.storyboard */; };
+		2AC6491122D8359A00F38553 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AC6491022D8359A00F38553 /* main.m */; };
+		2AC6491B22D8359A00F38553 /* TGSliderControlTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AC6491A22D8359A00F38553 /* TGSliderControlTests.m */; };
+		2AC6492622D8359A00F38553 /* TGSliderControlUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AC6492522D8359A00F38553 /* TGSliderControlUITests.m */; };
+		2AC6495222D8362500F38553 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AC6493522D8362500F38553 /* NSLayoutConstraint+MASDebugAdditions.m */; };
+		2AC6495322D8362500F38553 /* ViewController+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AC6493E22D8362500F38553 /* ViewController+MASAdditions.m */; };
+		2AC6495422D8362500F38553 /* MASCompositeConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AC6494222D8362500F38553 /* MASCompositeConstraint.m */; };
+		2AC6495522D8362500F38553 /* MASConstraintMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AC6494322D8362500F38553 /* MASConstraintMaker.m */; };
+		2AC6495622D8362500F38553 /* MASLayoutConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AC6494422D8362500F38553 /* MASLayoutConstraint.m */; };
+		2AC6495722D8362500F38553 /* NSArray+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AC6494522D8362500F38553 /* NSArray+MASAdditions.m */; };
+		2AC6495822D8362500F38553 /* View+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AC6494622D8362500F38553 /* View+MASAdditions.m */; };
+		2AC6495922D8362500F38553 /* MASConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AC6494922D8362500F38553 /* MASConstraint.m */; };
+		2AC6495A22D8362500F38553 /* MASViewConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AC6494B22D8362500F38553 /* MASViewConstraint.m */; };
+		2AC6495B22D8362500F38553 /* MASViewAttribute.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AC6494C22D8362500F38553 /* MASViewAttribute.m */; };
+		2AC6495C22D8362500F38553 /* TGSliderControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AC6494E22D8362500F38553 /* TGSliderControl.m */; };
+		2AC6495D22D8362500F38553 /* UIColor+RGB.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AC6495022D8362500F38553 /* UIColor+RGB.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2AC6491722D8359A00F38553 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2AC648F622D8359900F38553 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2AC648FD22D8359900F38553;
+			remoteInfo = TGSliderControl;
+		};
+		2AC6492222D8359A00F38553 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2AC648F622D8359900F38553 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2AC648FD22D8359900F38553;
+			remoteInfo = TGSliderControl;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2AC648FE22D8359900F38553 /* TGSliderControl.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TGSliderControl.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2AC6490122D8359900F38553 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		2AC6490222D8359900F38553 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		2AC6490422D8359900F38553 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		2AC6490522D8359900F38553 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		2AC6490822D8359900F38553 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2AC6490A22D8359A00F38553 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2AC6490D22D8359A00F38553 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2AC6490F22D8359A00F38553 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2AC6491022D8359A00F38553 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2AC6491622D8359A00F38553 /* TGSliderControlTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TGSliderControlTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2AC6491A22D8359A00F38553 /* TGSliderControlTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TGSliderControlTests.m; sourceTree = "<group>"; };
+		2AC6491C22D8359A00F38553 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2AC6492122D8359A00F38553 /* TGSliderControlUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TGSliderControlUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2AC6492522D8359A00F38553 /* TGSliderControlUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TGSliderControlUITests.m; sourceTree = "<group>"; };
+		2AC6492722D8359A00F38553 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2AC6493422D8362500F38553 /* MASCompositeConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASCompositeConstraint.h; sourceTree = "<group>"; };
+		2AC6493522D8362500F38553 /* NSLayoutConstraint+MASDebugAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSLayoutConstraint+MASDebugAdditions.m"; sourceTree = "<group>"; };
+		2AC6493622D8362500F38553 /* MASConstraint+Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MASConstraint+Private.h"; sourceTree = "<group>"; };
+		2AC6493722D8362500F38553 /* MASLayoutConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASLayoutConstraint.h; sourceTree = "<group>"; };
+		2AC6493822D8362500F38553 /* NSArray+MASShorthandAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+MASShorthandAdditions.h"; sourceTree = "<group>"; };
+		2AC6493922D8362500F38553 /* MASConstraintMaker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASConstraintMaker.h; sourceTree = "<group>"; };
+		2AC6493A22D8362500F38553 /* View+MASAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "View+MASAdditions.h"; sourceTree = "<group>"; };
+		2AC6493B22D8362500F38553 /* NSArray+MASAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+MASAdditions.h"; sourceTree = "<group>"; };
+		2AC6493C22D8362500F38553 /* MASUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASUtilities.h; sourceTree = "<group>"; };
+		2AC6493D22D8362500F38553 /* MASViewAttribute.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASViewAttribute.h; sourceTree = "<group>"; };
+		2AC6493E22D8362500F38553 /* ViewController+MASAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "ViewController+MASAdditions.m"; sourceTree = "<group>"; };
+		2AC6493F22D8362500F38553 /* MASViewConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASViewConstraint.h; sourceTree = "<group>"; };
+		2AC6494022D8362500F38553 /* MASConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASConstraint.h; sourceTree = "<group>"; };
+		2AC6494122D8362500F38553 /* NSLayoutConstraint+MASDebugAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSLayoutConstraint+MASDebugAdditions.h"; sourceTree = "<group>"; };
+		2AC6494222D8362500F38553 /* MASCompositeConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASCompositeConstraint.m; sourceTree = "<group>"; };
+		2AC6494322D8362500F38553 /* MASConstraintMaker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASConstraintMaker.m; sourceTree = "<group>"; };
+		2AC6494422D8362500F38553 /* MASLayoutConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASLayoutConstraint.m; sourceTree = "<group>"; };
+		2AC6494522D8362500F38553 /* NSArray+MASAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+MASAdditions.m"; sourceTree = "<group>"; };
+		2AC6494622D8362500F38553 /* View+MASAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "View+MASAdditions.m"; sourceTree = "<group>"; };
+		2AC6494722D8362500F38553 /* View+MASShorthandAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "View+MASShorthandAdditions.h"; sourceTree = "<group>"; };
+		2AC6494822D8362500F38553 /* Masonry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Masonry.h; sourceTree = "<group>"; };
+		2AC6494922D8362500F38553 /* MASConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASConstraint.m; sourceTree = "<group>"; };
+		2AC6494A22D8362500F38553 /* ViewController+MASAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ViewController+MASAdditions.h"; sourceTree = "<group>"; };
+		2AC6494B22D8362500F38553 /* MASViewConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASViewConstraint.m; sourceTree = "<group>"; };
+		2AC6494C22D8362500F38553 /* MASViewAttribute.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASViewAttribute.m; sourceTree = "<group>"; };
+		2AC6494E22D8362500F38553 /* TGSliderControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TGSliderControl.m; sourceTree = "<group>"; };
+		2AC6494F22D8362500F38553 /* UIColor+RGB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+RGB.h"; sourceTree = "<group>"; };
+		2AC6495022D8362500F38553 /* UIColor+RGB.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+RGB.m"; sourceTree = "<group>"; };
+		2AC6495122D8362500F38553 /* TGSliderControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TGSliderControl.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2AC648FB22D8359900F38553 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2AC6491322D8359A00F38553 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2AC6491E22D8359A00F38553 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2AC648F522D8359900F38553 = {
+			isa = PBXGroup;
+			children = (
+				2AC6490022D8359900F38553 /* TGSliderControl */,
+				2AC6491922D8359A00F38553 /* TGSliderControlTests */,
+				2AC6492422D8359A00F38553 /* TGSliderControlUITests */,
+				2AC648FF22D8359900F38553 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2AC648FF22D8359900F38553 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2AC648FE22D8359900F38553 /* TGSliderControl.app */,
+				2AC6491622D8359A00F38553 /* TGSliderControlTests.xctest */,
+				2AC6492122D8359A00F38553 /* TGSliderControlUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2AC6490022D8359900F38553 /* TGSliderControl */ = {
+			isa = PBXGroup;
+			children = (
+				2AC6494D22D8362500F38553 /* FilterControl */,
+				2AC6493322D8362500F38553 /* Masonry */,
+				2AC6490122D8359900F38553 /* AppDelegate.h */,
+				2AC6490222D8359900F38553 /* AppDelegate.m */,
+				2AC6490422D8359900F38553 /* ViewController.h */,
+				2AC6490522D8359900F38553 /* ViewController.m */,
+				2AC6490722D8359900F38553 /* Main.storyboard */,
+				2AC6490A22D8359A00F38553 /* Assets.xcassets */,
+				2AC6490C22D8359A00F38553 /* LaunchScreen.storyboard */,
+				2AC6490F22D8359A00F38553 /* Info.plist */,
+				2AC6491022D8359A00F38553 /* main.m */,
+			);
+			path = TGSliderControl;
+			sourceTree = "<group>";
+		};
+		2AC6491922D8359A00F38553 /* TGSliderControlTests */ = {
+			isa = PBXGroup;
+			children = (
+				2AC6491A22D8359A00F38553 /* TGSliderControlTests.m */,
+				2AC6491C22D8359A00F38553 /* Info.plist */,
+			);
+			path = TGSliderControlTests;
+			sourceTree = "<group>";
+		};
+		2AC6492422D8359A00F38553 /* TGSliderControlUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2AC6492522D8359A00F38553 /* TGSliderControlUITests.m */,
+				2AC6492722D8359A00F38553 /* Info.plist */,
+			);
+			path = TGSliderControlUITests;
+			sourceTree = "<group>";
+		};
+		2AC6493322D8362500F38553 /* Masonry */ = {
+			isa = PBXGroup;
+			children = (
+				2AC6493422D8362500F38553 /* MASCompositeConstraint.h */,
+				2AC6493522D8362500F38553 /* NSLayoutConstraint+MASDebugAdditions.m */,
+				2AC6493622D8362500F38553 /* MASConstraint+Private.h */,
+				2AC6493722D8362500F38553 /* MASLayoutConstraint.h */,
+				2AC6493822D8362500F38553 /* NSArray+MASShorthandAdditions.h */,
+				2AC6493922D8362500F38553 /* MASConstraintMaker.h */,
+				2AC6493A22D8362500F38553 /* View+MASAdditions.h */,
+				2AC6493B22D8362500F38553 /* NSArray+MASAdditions.h */,
+				2AC6493C22D8362500F38553 /* MASUtilities.h */,
+				2AC6493D22D8362500F38553 /* MASViewAttribute.h */,
+				2AC6493E22D8362500F38553 /* ViewController+MASAdditions.m */,
+				2AC6493F22D8362500F38553 /* MASViewConstraint.h */,
+				2AC6494022D8362500F38553 /* MASConstraint.h */,
+				2AC6494122D8362500F38553 /* NSLayoutConstraint+MASDebugAdditions.h */,
+				2AC6494222D8362500F38553 /* MASCompositeConstraint.m */,
+				2AC6494322D8362500F38553 /* MASConstraintMaker.m */,
+				2AC6494422D8362500F38553 /* MASLayoutConstraint.m */,
+				2AC6494522D8362500F38553 /* NSArray+MASAdditions.m */,
+				2AC6494622D8362500F38553 /* View+MASAdditions.m */,
+				2AC6494722D8362500F38553 /* View+MASShorthandAdditions.h */,
+				2AC6494822D8362500F38553 /* Masonry.h */,
+				2AC6494922D8362500F38553 /* MASConstraint.m */,
+				2AC6494A22D8362500F38553 /* ViewController+MASAdditions.h */,
+				2AC6494B22D8362500F38553 /* MASViewConstraint.m */,
+				2AC6494C22D8362500F38553 /* MASViewAttribute.m */,
+			);
+			path = Masonry;
+			sourceTree = "<group>";
+		};
+		2AC6494D22D8362500F38553 /* FilterControl */ = {
+			isa = PBXGroup;
+			children = (
+				2AC6494E22D8362500F38553 /* TGSliderControl.m */,
+				2AC6494F22D8362500F38553 /* UIColor+RGB.h */,
+				2AC6495022D8362500F38553 /* UIColor+RGB.m */,
+				2AC6495122D8362500F38553 /* TGSliderControl.h */,
+			);
+			path = FilterControl;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2AC648FD22D8359900F38553 /* TGSliderControl */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2AC6492A22D8359A00F38553 /* Build configuration list for PBXNativeTarget "TGSliderControl" */;
+			buildPhases = (
+				2AC648FA22D8359900F38553 /* Sources */,
+				2AC648FB22D8359900F38553 /* Frameworks */,
+				2AC648FC22D8359900F38553 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TGSliderControl;
+			productName = TGSliderControl;
+			productReference = 2AC648FE22D8359900F38553 /* TGSliderControl.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2AC6491522D8359A00F38553 /* TGSliderControlTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2AC6492D22D8359A00F38553 /* Build configuration list for PBXNativeTarget "TGSliderControlTests" */;
+			buildPhases = (
+				2AC6491222D8359A00F38553 /* Sources */,
+				2AC6491322D8359A00F38553 /* Frameworks */,
+				2AC6491422D8359A00F38553 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2AC6491822D8359A00F38553 /* PBXTargetDependency */,
+			);
+			name = TGSliderControlTests;
+			productName = TGSliderControlTests;
+			productReference = 2AC6491622D8359A00F38553 /* TGSliderControlTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2AC6492022D8359A00F38553 /* TGSliderControlUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2AC6493022D8359A00F38553 /* Build configuration list for PBXNativeTarget "TGSliderControlUITests" */;
+			buildPhases = (
+				2AC6491D22D8359A00F38553 /* Sources */,
+				2AC6491E22D8359A00F38553 /* Frameworks */,
+				2AC6491F22D8359A00F38553 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2AC6492322D8359A00F38553 /* PBXTargetDependency */,
+			);
+			name = TGSliderControlUITests;
+			productName = TGSliderControlUITests;
+			productReference = 2AC6492122D8359A00F38553 /* TGSliderControlUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2AC648F622D8359900F38553 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = twiglau;
+				TargetAttributes = {
+					2AC648FD22D8359900F38553 = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+					2AC6491522D8359A00F38553 = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = 2AC648FD22D8359900F38553;
+					};
+					2AC6492022D8359A00F38553 = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = 2AC648FD22D8359900F38553;
+					};
+				};
+			};
+			buildConfigurationList = 2AC648F922D8359900F38553 /* Build configuration list for PBXProject "TGSliderControl" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2AC648F522D8359900F38553;
+			productRefGroup = 2AC648FF22D8359900F38553 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2AC648FD22D8359900F38553 /* TGSliderControl */,
+				2AC6491522D8359A00F38553 /* TGSliderControlTests */,
+				2AC6492022D8359A00F38553 /* TGSliderControlUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2AC648FC22D8359900F38553 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2AC6490E22D8359A00F38553 /* LaunchScreen.storyboard in Resources */,
+				2AC6490B22D8359A00F38553 /* Assets.xcassets in Resources */,
+				2AC6490922D8359900F38553 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2AC6491422D8359A00F38553 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2AC6491F22D8359A00F38553 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2AC648FA22D8359900F38553 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2AC6495522D8362500F38553 /* MASConstraintMaker.m in Sources */,
+				2AC6490622D8359900F38553 /* ViewController.m in Sources */,
+				2AC6495322D8362500F38553 /* ViewController+MASAdditions.m in Sources */,
+				2AC6495A22D8362500F38553 /* MASViewConstraint.m in Sources */,
+				2AC6491122D8359A00F38553 /* main.m in Sources */,
+				2AC6495622D8362500F38553 /* MASLayoutConstraint.m in Sources */,
+				2AC6495922D8362500F38553 /* MASConstraint.m in Sources */,
+				2AC6495C22D8362500F38553 /* TGSliderControl.m in Sources */,
+				2AC6495722D8362500F38553 /* NSArray+MASAdditions.m in Sources */,
+				2AC6490322D8359900F38553 /* AppDelegate.m in Sources */,
+				2AC6495422D8362500F38553 /* MASCompositeConstraint.m in Sources */,
+				2AC6495822D8362500F38553 /* View+MASAdditions.m in Sources */,
+				2AC6495222D8362500F38553 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */,
+				2AC6495D22D8362500F38553 /* UIColor+RGB.m in Sources */,
+				2AC6495B22D8362500F38553 /* MASViewAttribute.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2AC6491222D8359A00F38553 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2AC6491B22D8359A00F38553 /* TGSliderControlTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2AC6491D22D8359A00F38553 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2AC6492622D8359A00F38553 /* TGSliderControlUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2AC6491822D8359A00F38553 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2AC648FD22D8359900F38553 /* TGSliderControl */;
+			targetProxy = 2AC6491722D8359A00F38553 /* PBXContainerItemProxy */;
+		};
+		2AC6492322D8359A00F38553 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2AC648FD22D8359900F38553 /* TGSliderControl */;
+			targetProxy = 2AC6492222D8359A00F38553 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2AC6490722D8359900F38553 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2AC6490822D8359900F38553 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2AC6490C22D8359A00F38553 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2AC6490D22D8359A00F38553 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2AC6492822D8359A00F38553 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		2AC6492922D8359A00F38553 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2AC6492B22D8359A00F38553 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SHT68ALMLX;
+				INFOPLIST_FILE = TGSliderControl/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.twiglau.TGSliderControl;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2AC6492C22D8359A00F38553 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SHT68ALMLX;
+				INFOPLIST_FILE = TGSliderControl/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.twiglau.TGSliderControl;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		2AC6492E22D8359A00F38553 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SHT68ALMLX;
+				INFOPLIST_FILE = TGSliderControlTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.twiglau.TGSliderControlTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TGSliderControl.app/TGSliderControl";
+			};
+			name = Debug;
+		};
+		2AC6492F22D8359A00F38553 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SHT68ALMLX;
+				INFOPLIST_FILE = TGSliderControlTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.twiglau.TGSliderControlTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TGSliderControl.app/TGSliderControl";
+			};
+			name = Release;
+		};
+		2AC6493122D8359A00F38553 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SHT68ALMLX;
+				INFOPLIST_FILE = TGSliderControlUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.twiglau.TGSliderControlUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TGSliderControl;
+			};
+			name = Debug;
+		};
+		2AC6493222D8359A00F38553 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SHT68ALMLX;
+				INFOPLIST_FILE = TGSliderControlUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.twiglau.TGSliderControlUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TGSliderControl;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2AC648F922D8359900F38553 /* Build configuration list for PBXProject "TGSliderControl" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2AC6492822D8359A00F38553 /* Debug */,
+				2AC6492922D8359A00F38553 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2AC6492A22D8359A00F38553 /* Build configuration list for PBXNativeTarget "TGSliderControl" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2AC6492B22D8359A00F38553 /* Debug */,
+				2AC6492C22D8359A00F38553 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2AC6492D22D8359A00F38553 /* Build configuration list for PBXNativeTarget "TGSliderControlTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2AC6492E22D8359A00F38553 /* Debug */,
+				2AC6492F22D8359A00F38553 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2AC6493022D8359A00F38553 /* Build configuration list for PBXNativeTarget "TGSliderControlUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2AC6493122D8359A00F38553 /* Debug */,
+				2AC6493222D8359A00F38553 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2AC648F622D8359900F38553 /* Project object */;
+}

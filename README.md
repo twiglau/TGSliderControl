@@ -1,1 +1,1 @@
-# TGFilterControl
+# TGSliderControl
